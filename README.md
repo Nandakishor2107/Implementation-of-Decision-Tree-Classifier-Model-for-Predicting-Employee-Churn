@@ -8,7 +8,13 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-
+1. Load and inspect the employee dataset using pandas.
+2. Encode categorical features (specifically, the 'salary' column).
+3. Drop unnecessary columns (like 'Departments ') and separate features (X) and target (y).
+4. Split the data into training and testing sets (80/20 split).
+5. Train a Decision Tree model using the training data with entropy as the criterion.
+6. Make predictions on the test set and evaluate the model using accuracy, confusion matrix, and classification report.
+7. Visualize the confusion matrix and predict the outcome for a new employee sample.
 
 ## Program:
 ```
